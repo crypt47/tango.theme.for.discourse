@@ -1,5 +1,5 @@
 {
-  "name": "Tango Dark Theme",
+  "name": "Tango Theme",
   "about_url": null,
   "license_url": null,
   "components": [
@@ -27,15 +27,15 @@
     },
     "tango-dark": {
       "primary": "e0e0e0",
-      "secondary": "2d2d2d",
+      "secondary": "272C2D",
       "tertiary": "9a5cfd",
       "quaternary": "71bd9f",
       "header_background": "202020",
       "header_primary": "e0e0e0",
-      "highlight": "9a5cfd",
+      "highlight": "E9B96E",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7"
+      "love": "68CF46"
     }
   }
 }
