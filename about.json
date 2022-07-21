@@ -1,5 +1,5 @@
 {
-  "name": "Air Theme",
+  "name": "Tango Dark Theme",
   "about_url": null,
   "license_url": null,
   "components": [
@@ -13,7 +13,7 @@
     "serialize_topic_excerpts": true
   },
   "color_schemes": {
-    "air-light": {
+    "tango-light": {
       "primary": "1c1c1c",
       "secondary": "f9fcff",
       "tertiary": "3877e5",
@@ -25,7 +25,7 @@
       "success": "71bd9f",
       "love": "c16ad7"
     },
-    "air-dark": {
+    "tango-dark": {
       "primary": "e0e0e0",
       "secondary": "2d2d2d",
       "tertiary": "9a5cfd",
