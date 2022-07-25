@@ -524,10 +524,10 @@ html body #main-outlet {
 }
 
 .btn {
-    border-width: 1px !important;
+    border-width: 2px !important;
     border-style: solid !important;
     border-color:  black !important;
-    border-raidus: 2px !important;
+    border-raidus: 0.2em !important;
 
 ￼    font-size: var(--font-0);
 ￼    line-height: normal;
@@ -541,5 +541,5 @@ html body #main-outlet {
 ￼    color: var(--primary);
 ￼    background: var(--primary-low);
 ￼    cursor: pointer;
-￼    transition: all 0.25s;
+￼    transition: all 0.6s;
 }
