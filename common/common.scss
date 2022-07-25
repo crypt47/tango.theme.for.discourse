@@ -334,18 +334,18 @@ html body #main-outlet {
       display: flex;
       margin-bottom: 0.5em;
       background-color: var(--secondary);
-      border: 2px solid rgba(var(--primary-rgb), 0.5);
+      border: 2px solid rgba(var(--primary-rgb), 0.25);
       border-radius: 0.125em;
       position: relative;
-      transition: box-shadow 100ms ease-in-out;
+      // transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       &.visited {
-        border: 2px solid rgba(var(--primary-rgb), 0.5);
+        border: 2px solid rgba(var(--primary-rgb), 0.25);
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border: 2px solid rgba(var(--primary-rgb), 0.25);
+          border: 2px solid rgba(var(--primary-rgb), 0.5);
           .discourse-tag {
             opacity: 1;
           }
@@ -353,7 +353,7 @@ html body #main-outlet {
       }
       &:hover {
         background-color: var(--secondary);
-        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+        //box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
         a.topic-excerpt {
