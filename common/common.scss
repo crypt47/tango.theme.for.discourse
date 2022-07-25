@@ -578,5 +578,10 @@ html body #main-outlet {
 }
 
 img.avatar {
-  border-radius: 0px;
+    border-radius: 0px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color:  var(--primary) !important;
+    border-raidus: 2px !important;
 }
+
