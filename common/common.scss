@@ -686,10 +686,10 @@ a {
     }
 }
 
-.card-content {
-    background: var(--primary-medium);
+.user-card .card-content, .group-card .card-content {
+    background: var(--primary-medium) !important;
 }
 
 .username {
-    color: var(--success-medium);
+    color: var(--success-medium) !important;
 }
