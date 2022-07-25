@@ -524,7 +524,11 @@ html body #main-outlet {
 }
 
 .btn {
-￼    border: 1px solid black;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color:  black !important;
+    border-raidus: 2px !important;
+
 ￼    font-size: var(--font-0);
 ￼    line-height: normal;
 ￼    box-sizing: border-box;
