@@ -523,7 +523,7 @@ html body #main-outlet {
     margin-right: 1em !important;
 }
 
-@ximin .btn {
+@mixin .btn {
     border: 2px solid black !important;
     border-width: 2px !important;
     border-style: solid !important;
@@ -547,14 +547,14 @@ html body #main-outlet {
 
 // for consistent sizing across inputs, buttons and dropdowns
 @mixin form-item-sizing {
-  border: 1px solid black;
-  font-size: var(--font-0);
-  line-height: normal;
-  box-sizing: border-box;
-  padding: $vpad $hpad;
-  .ios-device & {
-    font-size: var(--font-size-ios-input);
-    padding-top: $vpad * 0.8;
-    padding-bottom: $vpad * 0.8;
-  }
+    border: 1px solid black;
+    font-size: var(--font-0);
+    line-height: normal;
+    box-sizing: border-box;
+    padding: $vpad $hpad;
+    .ios-device & {
+	font-size: var(--font-size-ios-input);
+	padding-top: $vpad * 0.8;
+	padding-bottom: $vpad * 0.8;
+    }
 }
