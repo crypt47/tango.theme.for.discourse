@@ -524,4 +524,18 @@ html body #main-outlet {
 }
 
 .btn {
+￼    border: 1px solid black;
+￼    font-size: var(--font-0);
+￼    line-height: normal;
+￼    box-sizing: border-box;
+￼    padding: 0.5em 0.65em;
+￼    display: inline-flex;￼
+￼    align-items: center;
+￼    justify-content: center;
+￼    margin: 0;
+￼    font-weight: normal;
+￼    color: var(--primary);
+￼    background: var(--primary-low);
+￼    cursor: pointer;
+￼    transition: all 0.25s;
 }
