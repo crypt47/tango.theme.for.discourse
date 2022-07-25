@@ -571,6 +571,9 @@ html body #main-outlet {
 }
 
 .widget-button {
+    .active {
+	border-bottom-color: transparent;
+    }
     border-width: 1px !important;
     border-style: solid !important;
     border-color:  var(--primary) !important;
