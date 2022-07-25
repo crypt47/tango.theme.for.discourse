@@ -523,7 +523,7 @@ html body #main-outlet {
     margin-right: 1em !important;
 }
 
-@mixin btn {
+.btn {
     border-width: 2px !important;
     border-style: solid !important;
     border-color:  black !important;
@@ -533,7 +533,7 @@ html body #main-outlet {
 }
 
 // for consistent sizing across inputs, buttons and dropdowns
-@mixin form-item-sizing {
+.form-item-sizing {
     border: 1px solid black;
     line-height: normal;
     box-sizing: border-box;
