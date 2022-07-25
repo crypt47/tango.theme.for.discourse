@@ -687,11 +687,9 @@ a {
 }
 
 .user-card .card-content, .group-card .card-content {
-    background: var(--primary-medium) !important;
+    background: var(--quaternary-low) !important;
 }
 
-span {
-    .username {
+span.username {
     color: var(--success-medium) !important;
-    }
 }
