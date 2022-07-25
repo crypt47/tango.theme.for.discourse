@@ -528,6 +528,8 @@ html body #main-outlet {
     border-style: solid !important;
     border-color:  black !important;
     border-raidus: 0.2em !important;
+    border-bottom-color: black !important;
+    border-top-color: black !important;
 }
 
 // for consistent sizing across inputs, buttons and dropdowns
@@ -535,4 +537,7 @@ html body #main-outlet {
     border: 1px solid black;
     line-height: normal;
     box-sizing: border-box;
+    border-bottom-color: black !important;
+    border-top-color: black !important;
+
 }
