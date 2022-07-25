@@ -527,7 +527,7 @@ html body #main-outlet {
     border-width: 1px !important;
     border-style: solid !important;
     border-color:  var(--primary) !important;
-    border-raidus: 0.1em !important;
+    border-raidus: 2px !important;
     border-bottom-color: var(--primary) !important;
     border-top-color: var(--primary) !important;
 }
@@ -537,7 +537,8 @@ html body #main-outlet {
     border: 1px solid var(--primary);
     line-height: normal;
     box-sizing: border-box;
-    border-raidus: 0.1em !important;
+    margin-radius: 2px;
+    border-raidus: 2px !important;
     border-bottom-color: black !important;
     border-top-color: black !important;
 
