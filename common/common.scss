@@ -675,7 +675,7 @@ img.avatar {
     border-color:  var(--primary) !important;
     border-raidus: 2px !important;
 }
-/*
+
 a {
     color: var(--quaternary);
     &:visited {
@@ -690,7 +690,8 @@ a {
     background: var(--primary-medium) !important;
 }
 
-span.username {
+span {
+    .username {
     color: var(--success-medium) !important;
+    }
 }
-*/
