@@ -441,11 +441,8 @@ background-color: var(--secondary);
 }
 
 .link-top-line {
-
     display: block;
     margin-bottom: 0.25em;
-
-
     font-weight: bold;
 
     border-radius: 0.25em;
@@ -455,14 +452,11 @@ background-color: var(--secondary);
     padding-right: 0.55em;
     padding-bottom: 0.35em;
 
-    background-color: var(--secondary);
+//    background-color: var(--secondary);
     color: var(--primary) !important;
-    &:hover {
-        background-color: var(--secondary);
-        color: var(--primary);
-    }
+
     &:visited {
-        background-color: var(--secondary);
+//        background-color: var(--secondary);
         color: var(--primary);
     }
 
