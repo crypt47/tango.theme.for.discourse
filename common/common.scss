@@ -199,12 +199,16 @@ div.ac-wrap {
 .btn:not(.themes-tab):not(.components-tab),
 .select-kit.dropdown-select-box .dropdown-select-box-header {
   border-radius: 2px;
-  border: 1px solid transparent;
+  border: 1px solid black;
 }
 
 .post-admin-menu.popup-menu {
   .btn.widget-button {
-    border-radius: 0px;
+
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color:  var(--primary) !important;
+    border-raidus: 2px !important;
   }
 }
 
