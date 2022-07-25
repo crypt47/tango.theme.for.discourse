@@ -135,6 +135,25 @@
     }
 }
 
+.raw-topic-link {
+    display: block;
+    margin-bottom: 0.25em;
+    font-weight: bold;
+
+    border-radius: 0.25em;
+
+    padding-top: 0.35em;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
+    padding-bottom: 0.35em;
+
+    color: var(--primary) !important;
+
+    &:visited {
+        color: var(--primary);
+    }
+
+}
 
 
 .discourse-tags .discourse-tag.simple:not(:last-child)::after,
@@ -440,27 +459,6 @@ background-color: var(--secondary);
     }
 }
 
-.link-top-line {
-    display: block;
-    margin-bottom: 0.25em;
-    font-weight: bold;
-
-    border-radius: 0.25em;
-
-    padding-top: 0.35em;
-    padding-left: 0.55em;
-    padding-right: 0.55em;
-    padding-bottom: 0.35em;
-
-//    background-color: var(--secondary);
-    color: var(--primary) !important;
-
-    &:visited {
-//        background-color: var(--secondary);
-        color: var(--primary);
-    }
-
-}
 
 
 .full-width .contents .topic-list {
