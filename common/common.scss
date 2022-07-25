@@ -116,6 +116,29 @@
   }
 }
 
+.category-name {
+
+//    font-size: $font-down-1;
+
+    font-weight: bold;
+
+  border-radius: 0.25em;
+
+  padding-top: 0.35em;
+  padding-left: 0.55em;
+    padding-right: 0.55em;
+    padding-bottom: 0.35em;
+
+  background-color: var(--secondary);
+  color: var(--danger) !important;
+  &:hover {
+    background-color: var(--primary-low-mid);
+    color: var(--danger);
+  }
+}
+
+
+
 .discourse-tags .discourse-tag.simple:not(:last-child)::after,
 .list-tags .discourse-tag.simple:not(:last-child)::after,
 .search-category .discourse-tag.simple:not(:last-child)::after {
