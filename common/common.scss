@@ -96,7 +96,11 @@
 }
 
 .discourse-tag {
-  font-size: $font-down-1;
+
+//    font-size: $font-down-1;
+
+    font-weight: bold;
+
   border-radius: 0.25em;
 
   padding-top: 0.35em;
