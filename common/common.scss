@@ -446,6 +446,24 @@ background-color: var(--secondary);
             min-height: 100%;
             min-height: 100%;
             .link-top-line {
+
+    font-weight: bold;
+
+    border-radius: 0.25em;
+
+    padding-top: 0.35em;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
+    padding-bottom: 0.35em;
+
+    background-color: var(--secondary);
+    color: var(--danger) !important;
+    &:hover {
+        background-color: var(--primary-low-mid);
+        color: var(--danger);
+    }
+
+
                 display: block;
                 margin-bottom: 0.25em;
             }
