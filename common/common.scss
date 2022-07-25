@@ -524,19 +524,20 @@ html body #main-outlet {
 }
 
 .btn {
-    border-width: 2px !important;
+    border-width: 1px !important;
     border-style: solid !important;
-    border-color:  black !important;
-    border-raidus: 0.2em !important;
-    border-bottom-color: black !important;
-    border-top-color: black !important;
+    border-color:  var(--primary) !important;
+    border-raidus: 0.1em !important;
+    border-bottom-color: var(--primary) !important;
+    border-top-color: var(--primary) !important;
 }
 
 // for consistent sizing across inputs, buttons and dropdowns
 .form-item-sizing {
-    border: 1px solid black;
+    border: 1px solid var(--primary);
     line-height: normal;
     box-sizing: border-box;
+    border-raidus: 0.1em !important;
     border-bottom-color: black !important;
     border-top-color: black !important;
 
