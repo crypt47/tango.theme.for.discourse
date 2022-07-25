@@ -369,7 +369,7 @@ background-color: var(--secondary);
             position: relative;
             // transition: box-shadow 100ms ease-in-out;
             box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
-            &.visited {
+            &:visited {
                 border: 2px solid rgba(var(--primary-rgb), 0.25);
                 .discourse-tag {
                     opacity: 0.75;
