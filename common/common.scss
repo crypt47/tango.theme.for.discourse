@@ -678,4 +678,10 @@ img.avatar {
 
 a {
     color: var(--quaternary);
+    &:visited {
+    color: var(--quaternary);
+    }
+    &:hover {
+    color: var(--quaternary);
+    }
 }
