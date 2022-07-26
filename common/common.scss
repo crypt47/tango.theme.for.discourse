@@ -716,9 +716,13 @@ span.username {
     background: var(--secondary) !important;
 }
 
-li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
-    a {
 
+
+//li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
+
+.user-menu .quick-access-panel li    a {
+
+	margin: 0.125em;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: 1em;
@@ -726,6 +730,7 @@ li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
 
         color: var(--secondary);
         background-color: var(--primary);
+
         &:hover {
             color: var(--secondary);
             background-color: var(--quaternary-low);
@@ -734,3 +739,4 @@ li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
     }
 
 }
+
