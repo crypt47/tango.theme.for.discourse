@@ -722,9 +722,6 @@ span.username {
 
 .user-menu .quick-access-panel li {
 
-        color: var(--secondary);
-        background-color: var(--primary);
-
 
         margin-left: 0em;
         margin-right: 0em;
@@ -758,6 +755,10 @@ span.username {
             background-color: var(--quaternary-low);
         }
 
+    }
+
+    span {
+	color: var(--love);
     }
 
 }
