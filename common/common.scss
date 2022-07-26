@@ -722,22 +722,23 @@ span.username {
 
 .user-menu .quick-access-panel li {
    a {
+        color: var(--secondary);
+        background-color: var(--primary);
 
 	margin: 0 px;
+
 	border: 0.125em;
 	border-color: var(--primary);
-
-	//border-radius: 2px;
 
         padding-left: 2em;
         padding-right: 2em;
         padding-top: 1em;
         padding-bottom: 1em;
 
-        color: var(--secondary);
-        background-color: var(--primary);
 
         &:hover {
+	    margin: 0 px;
+	    border: 0.125em;
 	    border-radius: 2px;
             color: var(--secondary);
             background-color: var(--quaternary-low);
