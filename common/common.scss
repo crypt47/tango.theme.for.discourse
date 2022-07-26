@@ -718,6 +718,7 @@ span.username {
 
 li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
     a {
+    padding: 1em;
     margin: 1em;
     color: var(--secondary);
     background-color: var(--primary);
