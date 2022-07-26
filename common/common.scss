@@ -720,6 +720,12 @@ li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
     a {
     margin-color: var(--primary);
     margin: 1em;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
     color: var(--secondary);
     background-color: var(--primary);
     &:hover {
