@@ -750,8 +750,8 @@ span.username {
         &:hover {
 	    margin: 0 px;
 	    border: 0.125em;
-	    border-radius: 2px;
-            color: var(--primary-medium);
+	    border-radius: 0px;
+            color: var(--primary);
             background-color: var(--quaternary-low);
         }
 
