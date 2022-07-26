@@ -715,8 +715,9 @@ span.username {
     width: initial;
 }
 
-.chat-mention, granted-badge, reaction, private-message {
+li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
     &:hover {
+	color: var(--primary-very-low);
 	background-color: var(--quaternary-low);
     }
 }
