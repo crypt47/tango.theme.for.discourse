@@ -758,7 +758,8 @@ span.username {
     }
 
     span:first-child {
-	color: var(--love);
+	font-weight: bold;
+	color: var(--success-medium);
     }
 
 }
