@@ -690,10 +690,6 @@ a {
     background: var(--quaternary-low) !important;
 }
 
-.popup-menu, .panel-body, .menu-panel {
-    background: var(--quaternary-low) !important;
-}
-
 
 span.username {
     color: var(--success-medium) !important;
@@ -715,12 +711,17 @@ span.username {
     width: initial;
 }
 
+.popup-menu, .panel-body, .menu-panel {
+    color: var(--primary) !important;
+    background: var(--secondary) !important;
+}
+
 li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
-    color: var(--primary-very-low);
+    color: var(--secondary);
     background-color: var(--quaternary-low);
 
     &:hover {
-	color: var(--primary-very-low);
+	color: var(--secondary);
 	background-color: var(--quaternary-low);
     }
 }
