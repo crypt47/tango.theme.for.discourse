@@ -1,43 +1,45 @@
 {
-  "name": "Tango Theme",
-  "about_url": null,
-  "license_url": null,
-  "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
-    "https://github.com/discourse/discourse-color-scheme-toggle.git",
-    "https://github.com/discourse/discourse-loading-slider.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
-  ],
-  "modifiers": {
-    "serialize_topic_excerpts": true
-  },
-  "color_schemes": {
-    "tango-light": {
-      "primary": "1c1c1c",
-      "secondary": "f9fcff",
-      "tertiary": "3877e5",
-      "quaternary": "7e8b93",
-      "quaternary-low": "204A87",
-      "header_background": "f9fcff",
-      "header_primary": "122b43",
-      "highlight": "e6cb37",
-      "danger": "204A87",
-      "success": "71bd9f",
-      "love": "c16ad7"
+    "name": "Tango Theme",
+    "about_url": null,
+    "license_url": null,
+    "components": [
+        "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
+        "https://github.com/discourse/discourse-color-scheme-toggle.git",
+        "https://github.com/discourse/discourse-loading-slider.git",
+        "https://github.com/discourse/discourse-clickable-topic.git",
+        "https://github.com/discourse/discourse-search-banner.git"
+    ],
+    "modifiers": {
+        "serialize_topic_excerpts": true
     },
-    "tango-dark": {
-      "primary": "e0e0e0",
-      "secondary": "272C2D",
-      "tertiary": "555753",
-      "quaternary": "729FCF",
-      "quaternary-low": "204A87",
-      "header_background": "202020",
-      "header_primary": "e0e0e0",
-      "highlight": "E9B96E",
-      "danger": "FCAF3E",
-      "success": "86DC34",
-      "love": "68CF46"
+    "color_schemes": {
+        "tango-light": {
+            "primary": "1c1c1c",
+            "secondary": "f9fcff",
+            "tertiary": "3877e5",
+            "quaternary": "7e8b93",
+            "quaternary-low": "204A87",
+            "header_background": "f9fcff",
+            "header_primary": "122b43",
+            "highlight": "e6cb37",
+            "danger": "204A87",
+            "success": "71bd9f",
+            "love": "c16ad7"
+        },
+        "tango-dark": {
+            "primary": "e0e0e0",
+            "secondary": "272C2D",
+            "tertiary": "555753",
+            "quaternary": "729FCF",
+            "quaternary-low": "204A87",
+            "header_background": "202020",
+            "header_primary": "e0e0e0",
+            "highlight": "E9B96E",
+            "danger": "FCAF3E",
+	    "danger-low-mid": "FC943E",
+	    "danger-low": "FC723E",
+            "success": "86DC34",
+            "love": "68CF46"
+        }
     }
-  }
 }
