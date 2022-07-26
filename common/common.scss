@@ -724,6 +724,9 @@ span.username {
    a {
 
 	margin: 0.125em;
+	margin-color:var(--primary);
+
+	padding-radius: 2px;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: 1em;
