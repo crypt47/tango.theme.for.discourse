@@ -698,3 +698,20 @@ a {
 span.username {
     color: var(--success-medium) !important;
 }
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+￼    display: flex;￼
+￼    flex-grow: 1;
+￼    background-color: var(--secondary);
+￼    border-left-width: 0;
+￼    border-radius: 12px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+￼    margin: 0 0;
+￼    max-height: 160px;
+￼    overflow: hidden;
+￼    transition: all ease-out 0.2s;
+￼    width: initial;
+}
