@@ -717,11 +717,14 @@ span.username {
 }
 
 li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
+    a {
     color: var(--secondary);
     background-color: var(--quaternary-low);
-
     &:hover {
 	color: var(--secondary);
 	background-color: var(--quaternary-low);
     }
+
+    }
+
 }
