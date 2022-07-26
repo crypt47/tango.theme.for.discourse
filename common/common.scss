@@ -723,13 +723,14 @@ span.username {
 .user-menu .quick-access-panel li {
    a {
 
-	margin: 0.125em;
-	margin-color: var(--primary);
+	margin: 0 px;
+	border: 0.125em;
+	border-color: var(--primary);
 
-	border-radius: 2px;
+	//border-radius: 2px;
 
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
         padding-top: 1em;
         padding-bottom: 1em;
 
