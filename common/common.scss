@@ -721,14 +721,24 @@ span.username {
 //li.chat-mention, li.replied, li.granted-badge, li.reaction, li.private-message {
 
 .user-menu .quick-access-panel li {
+
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 0em;
+        margin-bottom: 0em;
+
    a {
         color: var(--secondary);
         background-color: var(--primary);
 
-	margin: 0 px;
-
 	border: 0.125em;
 	border-color: var(--primary);
+
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 0em;
+        margin-bottom: 0em;
+
 
         padding-left: 2em;
         padding-right: 2em;
